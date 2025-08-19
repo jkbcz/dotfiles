@@ -1,7 +1,7 @@
 #!/bin/bash
 
-rm -f ~/.config/hypr/custom.d && ln -s ./hypr/custom.d ~/.config/hypr/custom.d
-rm -f ~/.config/kitty && ln -s  ./kitty ~/.config/kitty
-rm -f ~/.config/wallpapers && ln -s ./wallpapers ~/.config/wallpapers
-rm -f ~/.config/zshrc && ln -s ~/zshrc ~/.config/zshrc
-rm -f ~/.zshrc && ln -s .zshrc ~/.zshrc
+rm -rf ~/.config/hypr/custom.d && ln -s ./hypr/custom.d ~/.config/hypr/custom.d
+rm -rf ~/.config/kitty && ln -s  ./kitty ~/.config/kitty
+rm -rf ~/.config/wallpapers && ln -s ./wallpapers ~/.config/wallpapers
+rm -rf ~/.config/zshrc && ln -s ~/zshrc ~/.config/zshrc
+rm -rf ~/.zshrc && ln -s .zshrc ~/.zshrc
